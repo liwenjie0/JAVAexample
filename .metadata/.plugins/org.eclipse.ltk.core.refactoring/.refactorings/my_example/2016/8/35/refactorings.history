@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;scrollPane&apos; in &apos;example300.network.ClientOneToOne_ClientFrame.ClientOneToOne_ClientFrame()&apos; to &apos;scrollPane_Right&apos;&#x0D;&#x0A;- Original project: &apos;my_example&apos;&#x0D;&#x0A;- Original element: &apos;example300.network.ClientOneToOne_ClientFrame.ClientOneToOne_ClientFrame().scrollPane&apos;&#x0D;&#x0A;- Renamed element: &apos;scrollPane&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;scrollPane&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;example300.network{ClientOneToOne_ClientFrame.java[ClientOneToOne_ClientFrame~ClientOneToOne_ClientFrame@scrollPane!2170!2216!2188!2197!QJScrollPane;!67108880!false" name="scrollPane_Right" references="true" stamp="1471936086156" version="1.0"/>
+</session>

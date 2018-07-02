@@ -1,0 +1,61 @@
+package my_example;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import java.awt.BorderLayout;
+import java.awt.Button;
+import javax.swing.JButton;
+import com.jgoodies.forms.factories.DefaultComponentFactory;
+
+public class WindowsOfCopy {
+
+	private JFrame frame;
+	/**
+	 * @wbp.nonvisual location=187,9
+	 */
+	private final JLabel label = DefaultComponentFactory.getInstance().createTitle("New JGoodies title");
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					WindowsOfCopy window = new WindowsOfCopy();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public WindowsOfCopy() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(100, 100, 450, 300);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		JLabel lblNewLabel = new JLabel("New label");
+		frame.getContentPane().add(lblNewLabel, BorderLayout.NORTH);
+		
+		Button button = new Button("New button");
+		frame.getContentPane().add(button, BorderLayout.CENTER);
+		
+		JButton btnNewButton = new JButton("New button");
+		frame.getContentPane().add(btnNewButton, BorderLayout.SOUTH);
+	}
+
+}
